@@ -117,7 +117,7 @@ export default function HomePage() {
         <div className={styles.projectName} >
             <Grid container>
               <Grid item xs={12}>
-              <p><strong>Find My Course</strong></p>
+              <p><strong>Find a Quote for Yourself</strong></p>
               </Grid>
             </Grid>
           </div>
