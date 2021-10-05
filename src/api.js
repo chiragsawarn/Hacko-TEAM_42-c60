@@ -13,12 +13,6 @@ const quoteArray = [{
     text : '“ Java is to JavaScript what car is to Carpet. ”',
     author : 'Chris Heilmann'
 }, {
-    text : '“ Knowledge is power. ”',
-    author : 'Francis Bacon'
-}, {
-    text : '“ Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code. ” ',
-    author : 'Dan Salomon'
-}, {
     text : '“ Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away. ” ',
     author : 'Antoine de Saint-Exupery'
 }, {
@@ -45,7 +39,20 @@ const quoteArray = [{
 }, {
     text : '“ Make it work, make it right, make it fast. ” ', 
     author : 'Kent Beck'
-}];
+}, {
+    text : '“ I have never started a poem yet whose end I knew. Writing a poem is discovering ” ', 
+    author : 'Robert Frost'
+}, {
+    text : '“ Difficulties mastered are opportunities won ” ', 
+    author : 'Winston Churchill'
+}, {
+    text : '“ Imagination is everything. It is the preview of life’s coming attractions. ” ', 
+    author : 'Albert Einstein'
+}, {
+    text : '“ A bird doesn’t sing because it has an answer; it sings because it has a song ” ', 
+    author : 'Maya Angelou'
+}
+];
 
 export function fetchQuote(quoteNumber) {
     return new Promise((resolve) => {
